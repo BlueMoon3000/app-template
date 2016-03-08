@@ -26,7 +26,7 @@ PROJECT_FILENAME = '$NEW_PROJECT_FILENAME'
 
 # The name of the repository containing the source
 REPOSITORY_NAME = '$NEW_REPOSITORY_NAME'
-GITHUB_USERNAME = 'nprapps'
+GITHUB_USERNAME = 'BlueMoon3000'
 REPOSITORY_URL = 'git@github.com:%s/%s.git' % (GITHUB_USERNAME, REPOSITORY_NAME)
 REPOSITORY_ALT_URL = None # 'git@bitbucket.org:nprapps/%s.git' % REPOSITORY_NAME'
 
@@ -37,11 +37,11 @@ ASSETS_SLUG = '$NEW_PROJECT_SLUG'
 """
 DEPLOYMENT
 """
-PRODUCTION_S3_BUCKET = 'apps.npr.org'
+PRODUCTION_S3_BUCKET = 'nealchandra.com'
 
-STAGING_S3_BUCKET = 'stage-apps.npr.org'
+STAGING_S3_BUCKET = 'nealchandra.com'
 
-ASSETS_S3_BUCKET = 'assets.apps.npr.org'
+ASSETS_S3_BUCKET = 'assets.nealchandra.com'
 
 DEFAULT_MAX_AGE = 20
 
@@ -91,7 +91,7 @@ DEBUG = True
 """
 COPY EDITING
 """
-COPY_GOOGLE_DOC_KEY = '0AlXMOHKxzQVRdHZuX1UycXplRlBfLVB0UVNldHJYZmc'
+COPY_GOOGLE_DOC_KEY = '1aRlhYmXdBxrtgy3eZYtkf-tTtzCafq8jTz8X425wqqk'
 COPY_PATH = 'data/copy.xlsx'
 
 """
@@ -114,7 +114,7 @@ NPR_DFP = {
 SERVICES
 """
 NPR_GOOGLE_ANALYTICS = {
-    'ACCOUNT_ID': 'UA-5828686-4',
+    'ACCOUNT_ID': 'UA-74852249-1',
     'DOMAIN': PRODUCTION_S3_BUCKET,
     'TOPICS': '' # e.g. '[1014,3,1003,1002,1001]'
 }
